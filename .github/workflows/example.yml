@@ -2,7 +2,9 @@ name: example
 
 on:
   push:
-    branches: develop
+    branches: 
+     - develop
+     - master
 
 jobs:
   job1:
