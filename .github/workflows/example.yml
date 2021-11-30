@@ -1,6 +1,8 @@
 name: example
 
-on: push
+on:
+  push:
+    branches: develop
 
 jobs:
   job1:
