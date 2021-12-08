@@ -12,6 +12,7 @@ jobs:
   job2:
     name: job2 name
     runs-on: ubuntu-latest # Ubuntu runner
+    needs: [job1]
     steps:
     - name: step21
       uses: actions/checkout@v2
