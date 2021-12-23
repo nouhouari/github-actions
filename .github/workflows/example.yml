@@ -18,6 +18,8 @@ jobs:
       uses: actions/checkout@v2
     - name: step21
       run: ls -all # runs a Bash command on Ubuntu
+    - name: step22
+      run: docker images #
     
   
   
